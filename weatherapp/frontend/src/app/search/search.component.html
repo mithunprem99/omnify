@@ -1,0 +1,13 @@
+<form>
+	<input type="text" name="city" [(ngModel)]="searchTerm" >
+	<button (click)="onSubmit()">Search</button>
+	<!-- <div *ngFor="let d of data"> -->
+		<h2>Place :{{searchTerm}}</h2>
+	<h2>Country code:{{ data.Country_code }}</h2>
+	<h2>Temperature:{{ data.temperature }}</h2>
+	<h2>Pressure:{{ data.Pressure }}</h2>
+	<h2>Humidity:{{ data.Humidity }}</h2>
+
+	
+
+</form>
